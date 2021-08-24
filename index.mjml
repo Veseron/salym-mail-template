@@ -4,15 +4,15 @@
         <mj-font name="Roboto" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap" />
            <mj-attributes>
                 <mj-text font-size="12px" line-height="16px" color="#213342"/>
+                <mj-class name="heading_h2" font-size="24px"/>
+                <mj-class name="heading_h3" font-size="14px" font-weight="600"/>
+                <mj-class name="primary-color" color="#627483"/>
                 <mj-all font-family="Roboto" />
             </mj-attributes>
         <mj-style inline="inline">
             body {
                 font-family: 'Roboto';
                 font-size: 22px;
-            }
-            .heading_h2 {
-                font-size: 24px; 
             }
             td tr {
                 padding: 0;
@@ -46,19 +46,19 @@
         </mj-section>
         <mj-section background-repeat="no-repeat" background-size="100%" background-url="https://salympetroleum.ru/upload/mail_assets/bg/bg-4.png" padding="29px">
             <mj-column width="100%">
-                <mj-text font-family="Roboto" font-size="20px">В фокусе</mj-text>
+                <mj-text mj-class="heading_h2 primary-color">В фокусе</mj-text>
             </mj-column>
             <mj-column width="50%">
-                <mj-image width="323px" height="258px" src="https://salympetroleum.ru/upload/mail_assets/img/img-1.png"/>
+                <mj-image padding-right="10px" width="323px" height="258px" src="https://salympetroleum.ru/upload/mail_assets/img/img-1.png"/>
             </mj-column>
-            <mj-column width="50%" padding-left="0" css-class="no-padding">
-                <mj-text css-class="heading_h2" padding-left="0">
+            <mj-column width="50%" padding-left="5px" mj-class="primary-color">
+                <mj-text mj-class="heading_h3 primary-color" padding-left="0">
                     Екатерина Грушецкая – новая глава «Шелл» в России
                 </mj-text>
-                <mj-text padding-left="0">
+                <mj-text mj-class="primary-color" padding-left="0">
                     Она будет представлять интересы «Шелл» во взаимодействии с партнерами, а также продолжит участвовать в управлении всеми предприятиями с участием «Шелл» в России.
                 </mj-text>
-                <mj-text padding-left="0">
+                <mj-text mj-class="primary-color" padding-left="0">
                     <svg width="11" height="11" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" fill="#627483"><svg xmlns="http://www.w3.org/2000/svg" width="11" height="11"><path paint-order="stroke fill markers" fill-rule="evenodd" d="M5.5 0a5.5 5.5 0 1 1 0 11 5.5 5.5 0 0 1 0-11z"/></svg></svg>
                     Подробнее
                 </mj-text>
