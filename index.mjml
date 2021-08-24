@@ -2,6 +2,10 @@
 <mjml>
     <mj-head>
         <mj-font name="Roboto" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap" />
+           <mj-attributes>
+                <mj-text font-size="12px" line-height="16px" color="#213342"/>
+                <mj-all font-family="Roboto" />
+            </mj-attributes>
         <mj-style inline="inline">
             body {
                 font-family: 'Roboto';
@@ -20,6 +24,14 @@
             }
             .icons-row a {
                 margin-left: 4px;
+            }
+            .img-text {
+                top: -55px;
+                position: relative;
+                font-family: 'Roboto';
+                font-size: 12px;
+                font-weight: 600;
+                color: #213342;
             }
         </mj-style>
     </mj-head>
@@ -54,16 +66,16 @@
         </mj-section>
         <mj-section padding="29px">
             <mj-column width="33.3%">
-                <mj-image src="https://salympetroleum.ru/upload/mail_assets/img/img-1.png"/>
-                <mj-text>СПД поддержала конкурс «Девушки в STEM» на форуме сообществ молодых специалистов</mj-text>
+                <mj-image padding="0 10px" src="https://salympetroleum.ru/upload/mail_assets/img/img-1.png"/>
+                <mj-text css-class="img-text">СПД поддержала конкурс «Девушки в STEM» на форуме сообществ молодых специалистов</mj-text>
             </mj-column>
             <mj-column width="33.3%">
-                <mj-image src="https://salympetroleum.ru/upload/mail_assets/img/img-1.png"/>
-                <mj-text>Названы победители ежегодной премии концерна «Шелл» CARE Award</mj-text>
+                <mj-image padding="0 10px" src="https://salympetroleum.ru/upload/mail_assets/img/img-1.png"/>
+                <mj-text css-class="img-text">Названы победители ежегодной премии концерна «Шелл» CARE Award</mj-text>
             </mj-column>
             <mj-column width="33.3%">
-                <mj-image src="https://salympetroleum.ru/upload/mail_assets/img/img-1.png"/>
-                <mj-text>СПД – победитель конкурса «Лучшие социальные проекты России-2021»</mj-text>
+                <mj-image padding="0 10px" src="https://salympetroleum.ru/upload/mail_assets/img/img-1.png"/>
+                <mj-text css-class="img-text">СПД – победитель конкурса «Лучшие социальные проекты России-2021»</mj-text>
             </mj-column>
         </mj-section>
         <mj-section padding="26px 69px">
