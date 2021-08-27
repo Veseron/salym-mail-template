@@ -67,7 +67,12 @@
                 top: -25px;
             }
             .border-bottom {
+                display: block;
                 border-bottom: 2px solid;
+            }
+            .border-bottom-light {
+                display: block;
+                border-bottom: 1px solid;
             }
             .border-primary {
                 border-color: #627483;
@@ -87,8 +92,15 @@
             </mj-column>
         </mj-section>
         <mj-section background-repeat="no-repeat" background-size="100%" background-url="https://salympetroleum.ru/upload/mail_assets/bg/bg-4.png" padding="29px">
-            <mj-column width="100%">
-                <mj-text mj-class="heading_h2 primary-color">В фокусе</mj-text>
+            <mj-column width="23%">
+                <mj-text mj-class="heading_h2 primary-color" padding-right="0">
+                    В фокусе
+                </mj-text>
+            </mj-column>
+            <mj-column width="77%">
+                <mj-text padding-bottom="15px" css-class="border-bottom-light border-primary">
+
+                </mj-text>
             </mj-column>
             <mj-column width="50%">
                 <mj-image padding-right="10px" width="323px" height="258px" src="https://salympetroleum.ru/upload/mail_assets/img/img-1.png"/>
@@ -101,8 +113,13 @@
                     Она будет представлять интересы «Шелл» во взаимодействии с партнерами, а также продолжит участвовать в управлении всеми предприятиями с участием «Шелл» в России.
                 </mj-text>
                 <mj-text mj-class="primary-color" padding-bottom="5px" padding-left="0" css-class="border-bottom border-primary">
-                    <svg width="11" height="11" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" fill="#627483"><svg xmlns="http://www.w3.org/2000/svg" width="11" height="11"><path paint-order="stroke fill markers" fill-rule="evenodd" d="M5.5 0a5.5 5.5 0 1 1 0 11 5.5 5.5 0 0 1 0-11z"/></svg></svg>
-                    <a class="primary-color" href="#">Подробнее</a>
+                    <a class="primary-color" href="#">
+                    <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="6.5" cy="6.5" r="6.5" fill="#627483"/>
+                        <line x1="2" y1="6.5" x2="11" y2="6.5" stroke="white"/>
+                        <line x1="6.5" y1="11" x2="6.5" y2="2" stroke="white"/>
+                    </svg>
+                    Подробнее</a>
                 </mj-text>
             </mj-column>
         </mj-section>
@@ -193,20 +210,25 @@
             </mj-column>
         </mj-section>
         <mj-section background-url="https://salympetroleum.ru/upload/mail_assets/bg/bg-2.png" background-size="cover">
-            <mj-column width="100%">
-                <mj-text mj-class="heading_h2" color="#fff">СПД на YouTube</mj-text>
+            <mj-column width="33%">
+                <mj-text mj-class="heading_h2" color="#fff" padding-right="0">СПД на YouTube</mj-text>
+            </mj-column>
+            <mj-column width="67%">
+                <mj-text padding-bottom="15px" css-class="border-bottom-light border-white">
+
+                </mj-text>
             </mj-column>
             <mj-column width="50%">
-                <mj-image width="323px" height="258px" src="https://salympetroleum.ru/upload/mail_assets/img/img-1.png"/>
+                <mj-image padding-right="0" width="323px" height="258px" src="https://salympetroleum.ru/upload/mail_assets/img/img-1.png"/>
             </mj-column>
-            <mj-column width="50%" padding-left="0" padding-right="35px">
-                <mj-text color="#fff" mj-class="heading_h3" padding-left="0">
+            <mj-column width="50%" padding-left="10px" padding-right="35px">
+                <mj-text color="#fff" mj-class="heading_h3" padding-left="0" >
                     Этика и комплаенс
                 </mj-text>
-                <mj-text color="#fff" padding-left="0">
+                <mj-text color="#fff" padding-left="10px">
                     Видеообращение Майкла Коллинса, генерального директора «Салым Петролеум»
                 </mj-text>
-                <mj-text color="#fff" padding-left="0" padding-top="115px" padding-bottom="5px" css-class="border-bottom border-white">
+                <mj-text color="#fff" padding-left="10px" padding-top="115px" padding-bottom="5px" css-class="border-bottom border-white">
                     <a href="#" style="color: #fff;">
                     <svg width="12" height="12" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" viewBox="364 1372 12 12"><svg width="12" height="12" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" viewBox="0 0 12.017 12.017" fill="#fff" x="364" y="1372"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="12" height="12"><path paint-order="stroke fill markers" fill-rule="evenodd" d="M6 11.5A5.495 5.495 0 0 1 .5 6C.5 2.958 2.958.5 6 .5c3.041 0 5.5 2.458 5.5 5.5 0 3.041-2.459 5.5-5.5 5.5z"/></svg></svg><svg width="5" height="6" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" viewBox="0 0 5.017 6.017" fill="#637482" x="368" y="1375"><svg xmlns="http://www.w3.org/2000/svg" width="5" height="6"><path paint-order="stroke fill markers" fill-rule="evenodd" d="M5 3L1 6V0l4 3z"/></svg></svg></svg>                    
                         Смотреть видео
@@ -216,50 +238,60 @@
         </mj-section>
         <mj-section padding-bottom="0">
             <mj-column width="50%">
-                <mj-text mj-class="heading_h2">Новости «Шелл»</mj-text>
+                <mj-text mj-class="heading_h2 primary-color">Новости «Шелл»</mj-text>
                 <mj-image padding-right="1px" src="https://salympetroleum.ru/upload/mail_assets/img/img-1.png"/>
                 <mj-text css-class="img-text" padding="0" padding-left="30px">Первый в мире контракт о поставках СПГ с нулевым выбросом заключила</mj-text>
                 <mj-text css-class="top-0">Поставки будут осуществляться в адрес PetroChina International в течение 5 лет.</mj-text>
             </mj-column>
             <mj-column width="50%">
-                <mj-text mj-class="heading_h2" padding-left="5px" >Новости «Газпром нефть»</mj-text>
+                <mj-text mj-class="heading_h2 primary-color" padding-left="5px" >Новости «Газпром нефть»</mj-text>
                 <mj-image padding-left="1px" src="https://salympetroleum.ru/upload/mail_assets/img/img-1.png"/>
                 <mj-text css-class="img-text" padding-top="0" padding-left="5px" >«Газпром нефть» первой в России полностью перешла на сдачу отчетности по запасам в цифровом виде</mj-text>
                 <mj-text css-class="top-0" padding-left="5px" >В 2021 году все дочерние добычные предприятия «Газпром нефти» впервые сдали отчетность по изменению запасов углеводородов в цифровом формате.</mj-text>
             </mj-column>
         </mj-section>
         <mj-section padding-bottom="0" background-repeat="no-repeat" background-size="100%" background-url="https://salympetroleum.ru/upload/mail_assets/bg/bg-4.png" padding="29px">
-            <mj-column width="100%">
-                <mj-text mj-class="heading_h2">Публикации в СМИ</mj-text>
+            <mj-column width="43%">
+                <mj-text mj-class="heading_h2 primary-color" padding-right="0">Публикации в СМИ</mj-text>
+            </mj-column>
+            <mj-column width="57%">
+                <mj-text padding-bottom="15px" css-class="border-bottom-light border-primary">
+
+                </mj-text>
             </mj-column>
             <mj-column width="50%">
-                <mj-image width="323px" height="258px" src="https://salympetroleum.ru/upload/mail_assets/img/img-1.png"/>
+                <mj-image padding-right="0" width="323px" height="258px" src="https://salympetroleum.ru/upload/mail_assets/img/img-1.png"/>
             </mj-column>
-            <mj-column width="50%" padding-left="0" css-class="no-padding">
+            <mj-column width="50%" padding-left="10px" css-class="no-padding">
                 <mj-text mj-class="heading_h3" padding-left="0">
                     В России объявили лучшие социальные проекты
                 </mj-text>
-                <mj-text padding-left="0">
+                <mj-text padding-left="10px">
                     Программа СПД по поддержке здравоохранения «Здоровая Югра» стала одним из победителей конкурса.
                 </mj-text>
-                <mj-text padding-left="20px" padding-top="35px" padding-bottom="5px" css-class="border-bottom border-primary">
+                <mj-text padding-left="30px" padding-top="35px" padding-bottom="5px" css-class="border-bottom border-primary">
                     <a href="#">Подробнее</a>
                 </mj-text>
             </mj-column>
         </mj-section>
         <mj-section padding="29px">
-            <mj-column width="100%">
-                <mj-text mj-class="heading_h2 primary-color">Полезная информация</mj-text>
+            <mj-column width="47%">
+                <mj-text mj-class="heading_h2 primary-color" padding-right="0">Полезная информация</mj-text>
+            </mj-column>
+            <mj-column width="53%">
+                <mj-text padding-bottom="15px" css-class="border-bottom-light border-primary">
+
+                </mj-text>
             </mj-column>
             <mj-column width="50%">
-                <mj-image width="323px" height="258px" src="https://salympetroleum.ru/upload/mail_assets/img/img-1.png"/>
+                <mj-image width="323px" padding-right="0" height="258px" src="https://salympetroleum.ru/upload/mail_assets/img/img-1.png"/>
             </mj-column>
             <mj-column width="50%" padding-left="0" css-class="no-padding">
-                <mj-text padding-left="0" mj-class="heading_h3">Рациональная экология</mj-text>
-                <mj-text padding-left="0">
+                <mj-text padding-left="10px" mj-class="heading_h3">Рациональная экология</mj-text>
+                <mj-text padding-left="10px">
                     Cегодня рациональное и бережное освоение недр стало главным приоритетом в работе нефтегазовых компаний, для которых новые технологии – это не дань моде.
                 </mj-text>
-                <mj-text padding-left="20px" padding-top="45px" padding-bottom="5px" css-class="border-bottom border-primary">
+                <mj-text padding-left="30px" padding-top="45px" padding-bottom="5px" css-class="border-bottom border-primary">
                     <a href="#">Подробнее</a>
                 </mj-text>
             </mj-column>
