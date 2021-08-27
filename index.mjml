@@ -92,18 +92,18 @@
             </mj-column>
         </mj-section>
         <mj-section background-repeat="no-repeat" background-size="100%" background-url="https://salympetroleum.ru/upload/mail_assets/bg/bg-4.png" padding="29px">
-            <mj-column width="23%">
-                <mj-text mj-class="heading_h2 primary-color" padding-right="0">
+            <mj-column width="20%">
+                <mj-text padding-left="0" mj-class="heading_h2 primary-color" padding-right="0">
                     В фокусе
                 </mj-text>
             </mj-column>
-            <mj-column width="77%">
+            <mj-column width="80%">
                 <mj-text padding-bottom="15px" css-class="border-bottom-light border-primary">
 
                 </mj-text>
             </mj-column>
             <mj-column width="50%">
-                <mj-image padding-right="10px" width="323px" height="258px" src="https://salympetroleum.ru/upload/mail_assets/img/img-1.png"/>
+                <mj-image padding-left="0" padding-right="10px" width="323px" height="258px" src="https://salympetroleum.ru/upload/mail_assets/img/img-1.png"/>
             </mj-column>
             <mj-column width="50%" padding-left="5px" mj-class="primary-color">
                 <mj-text mj-class="heading_h3 primary-color" padding-left="0">
