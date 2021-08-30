@@ -7,6 +7,7 @@
                 <mj-class name="heading_h2" font-size="24px"/>
                 <mj-class name="heading_h3" font-size="14px" font-weight="600"/>
                 <mj-class name="primary-color" color="#627483"/>
+                <mj-class name="font-normal" font-weight="400"/>
                 <mj-all font-family="Roboto" />
             </mj-attributes>
         <mj-style inline="inline">
@@ -26,7 +27,6 @@
                 margin-left: 4px;
             }
             .img-text {
-                top: -55px;
                 position: relative;
                 font-family: 'Roboto';
                 font-size: 12px;
@@ -53,15 +53,6 @@
                 top: -105px;
                 height: 200px;
             }
-            .top-0 {
-                position: relative;
-                top: -30px
-            }
-            .news-section_1 {
-                position: relative;
-                top: -35px;
-                height: 200px;
-            }
             .news-section_2 {
                 position: relative;
                 top: -25px;
@@ -79,6 +70,16 @@
             }
             .border-white {
                 border-color: #fff;
+            }
+            .icon-link {
+                position: relative;
+                padding-left: 25px;
+                display: block;
+            }
+            .icon-link svg {
+                position: absolute;
+                left: 0;
+                top: 0;
             }
         </mj-style>
     </mj-head>
@@ -103,7 +104,7 @@
                 </mj-text>
             </mj-column>
             <mj-column width="50%">
-                <mj-image padding-left="0" padding-right="10px" width="323px" height="258px" src="https://salympetroleum.ru/upload/mail_assets/img/img-1.png"/>
+                <mj-image padding-left="0" padding-right="15px"  src="https://salympetroleum.ru/upload/mail_assets/img/img-1_small.png"/>
             </mj-column>
             <mj-column width="50%" padding-left="5px" mj-class="primary-color">
                 <mj-text mj-class="heading_h3 primary-color" padding-left="0">
@@ -112,7 +113,7 @@
                 <mj-text mj-class="primary-color" padding-left="0">
                     Она будет представлять интересы «Шелл» во взаимодействии с партнерами, а также продолжит участвовать в управлении всеми предприятиями с участием «Шелл» в России.
                 </mj-text>
-                <mj-text mj-class="primary-color" padding-bottom="5px" padding-left="0" css-class="border-bottom border-primary">
+                <mj-text mj-class="primary-color" padding-bottom="5px" padding-top="28px" padding-left="0" css-class="border-bottom border-primary">
                     <a class="primary-color" href="#">
                     <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <circle cx="6.5" cy="6.5" r="6.5" fill="#627483"/>
@@ -123,52 +124,100 @@
                 </mj-text>
             </mj-column>
         </mj-section>
-        <mj-section padding="29px" css-class="news-section_1">
+        <mj-section padding="29px 15px" css-class="news-section_1">
+            <mj-column width="18%">
+                <mj-text padding-left="15px" padding-right="0" padding-bottom="25px" mj-class="heading_h2 primary-color">Новости</mj-text>
+            </mj-column>
+            <mj-column width="82%">
+                <mj-text padding-bottom="15px" css-class="border-bottom-light border-primary">
+
+                </mj-text>
+            </mj-column>
             <mj-column width="33.3%">
-                <mj-image padding="0 10px" src="https://salympetroleum.ru/upload/mail_assets/img/img-1.png"/>
-                <mj-text css-class="img-text">
+                <mj-image padding="0 10px" src="https://salympetroleum.ru/upload/mail_assets/img/img-1_small.png"/>
+                <mj-text css-class="img-text" padding-left="10px">
                     <a href="#">СПД поддержала конкурс «Девушки в STEM» на форуме сообществ молодых специалистов</a>
                 </mj-text>
             </mj-column>
             <mj-column width="33.3%">
-                <mj-image padding="0 10px" src="https://salympetroleum.ru/upload/mail_assets/img/img-1.png"/>
-                <mj-text css-class="img-text">
+                <mj-image padding="0 10px" src="https://salympetroleum.ru/upload/mail_assets/img/img-1_small.png"/>
+                <mj-text css-class="img-text" padding-left="10px">
                     <a href="#">
                         Названы победители ежегодной премии концерна «Шелл» CARE Award
                     </a>
                 </mj-text>
             </mj-column>
             <mj-column width="33.3%">
-                <mj-image padding="0 10px" src="https://salympetroleum.ru/upload/mail_assets/img/img-1.png"/>
-                <mj-text css-class="img-text">
+                <mj-image padding="0 10px" src="https://salympetroleum.ru/upload/mail_assets/img/img-1_small.png"/>
+                <mj-text css-class="img-text" padding-left="10px">
                     <a href="#">СПД – победитель конкурса «Лучшие социальные проекты России-2021»</a>
                 </mj-text>
             </mj-column>
         </mj-section>
-        <mj-section padding="26px 69px" background-repeat="no-repeat" background-size="100%" background-url="https://salympetroleum.ru/upload/mail_assets/bg/bg-4.png">
+        <mj-section padding="26px 29px" background-repeat="no-repeat" background-size="100%" background-url="https://salympetroleum.ru/upload/mail_assets/bg/bg-4.png">
             <mj-column width="33.3%">
                 <mj-text padding="15px 35px 0 0">
-                    <a class="primary-color" href="#">В СПД стартовала программа «Культура конкурентоспособности и достижения лучших результатов»</a>
+                    <a class="icon-link primary-color" href="#">
+                    <svg id="Plus_Component" data-name="Plus Component" xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 11 11">
+                    <g id="Group_33" data-name="Group 33">
+                        <circle id="Ellipse_1" data-name="Ellipse 1" cx="5.5" cy="5.5" r="5.5" fill="#637482"/>
+                    </g>
+                    <line id="Line_5" data-name="Line 5" x2="6" transform="translate(2.5 5.5)" fill="none" stroke="#fff" stroke-width="1"/>
+                    <line id="Line_6" data-name="Line 6" x2="6" transform="translate(5.5 2.5) rotate(90)" fill="none" stroke="#fff" stroke-width="1"/>
+                    </svg>
+                    В СПД стартовала программа «Культура конкурентоспособности и достижения лучших результатов»
+                    </a>
                 </mj-text>
             </mj-column>
             <mj-column width="33.3%">
                 <mj-text padding="15px 35px 0 0">
-                    <a class="primary-color" href="#">Мини-турнир по волейболу на новой спортивной площадке.</a>
+                    <a class="primary-color icon-link" href="#">
+                    <svg id="Plus_Component" data-name="Plus Component" xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 11 11">
+                    <g id="Group_33" data-name="Group 33">
+                        <circle id="Ellipse_1" data-name="Ellipse 1" cx="5.5" cy="5.5" r="5.5" fill="#637482"/>
+                    </g>
+                    <line id="Line_5" data-name="Line 5" x2="6" transform="translate(2.5 5.5)" fill="none" stroke="#fff" stroke-width="1"/>
+                    <line id="Line_6" data-name="Line 6" x2="6" transform="translate(5.5 2.5) rotate(90)" fill="none" stroke="#fff" stroke-width="1"/>
+                    </svg>
+                    Мини-турнир по волейболу на новой спортивной площадке.</a>
                 </mj-text>
             </mj-column>
             <mj-column width="33.3%">
                 <mj-text padding="15px 35px 0 0">
-                    <a class="primary-color" href="#">Мини-турнир по волейболу на новой спортивной площадке.</a>
+                    <a class="primary-color icon-link" href="#">
+                    <svg id="Plus_Component" data-name="Plus Component" xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 11 11">
+                    <g id="Group_33" data-name="Group 33">
+                        <circle id="Ellipse_1" data-name="Ellipse 1" cx="5.5" cy="5.5" r="5.5" fill="#637482"/>
+                    </g>
+                    <line id="Line_5" data-name="Line 5" x2="6" transform="translate(2.5 5.5)" fill="none" stroke="#fff" stroke-width="1"/>
+                    <line id="Line_6" data-name="Line 6" x2="6" transform="translate(5.5 2.5) rotate(90)" fill="none" stroke="#fff" stroke-width="1"/>
+                    </svg>
+                    Мини-турнир по волейболу на новой спортивной площадке.</a>
                 </mj-text>
             </mj-column>
             <mj-column width="33.3%">
                 <mj-text padding="15px 35px 0 0">
-                    <a class="primary-color" href="#">Опыт вакцинации от COVID-19 глазами сотрудников СПД</a>
+                    <a class="primary-color icon-link" href="#">
+                    <svg id="Plus_Component" data-name="Plus Component" xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 11 11">
+                    <g id="Group_33" data-name="Group 33">
+                        <circle id="Ellipse_1" data-name="Ellipse 1" cx="5.5" cy="5.5" r="5.5" fill="#637482"/>
+                    </g>
+                    <line id="Line_5" data-name="Line 5" x2="6" transform="translate(2.5 5.5)" fill="none" stroke="#fff" stroke-width="1"/>
+                    <line id="Line_6" data-name="Line 6" x2="6" transform="translate(5.5 2.5) rotate(90)" fill="none" stroke="#fff" stroke-width="1"/>
+                    </svg>
+                    Опыт вакцинации от COVID-19 глазами сотрудников СПД</a>
                 </mj-text>
             </mj-column>
             <mj-column width="33.3%">
                 <mj-text padding="15px 35px 0 0">
-                    <a class="primary-color" href="#">
+                    <a class="primary-color icon-link" href="#">
+                        <svg id="Plus_Component" data-name="Plus Component" xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 11 11">
+                        <g id="Group_33" data-name="Group 33">
+                            <circle id="Ellipse_1" data-name="Ellipse 1" cx="5.5" cy="5.5" r="5.5" fill="#637482"/>
+                        </g>
+                        <line id="Line_5" data-name="Line 5" x2="6" transform="translate(2.5 5.5)" fill="none" stroke="#fff" stroke-width="1"/>
+                        <line id="Line_6" data-name="Line 6" x2="6" transform="translate(5.5 2.5) rotate(90)" fill="none" stroke="#fff" stroke-width="1"/>
+                        </svg>
                         В СПД стартовала программа 
                         «Культура конкурентоспособности и достижения лучших результатов».
                     </a>
@@ -176,34 +225,41 @@
             </mj-column>
             <mj-column width="33.3%">
                 <mj-text padding="15px 35px 0 0">
-                    <a class="primary-color" href="#">
+                    <a class="primary-color icon-link" href="#">
+                        <svg id="Plus_Component" data-name="Plus Component" xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 11 11">
+                        <g id="Group_33" data-name="Group 33">
+                            <circle id="Ellipse_1" data-name="Ellipse 1" cx="5.5" cy="5.5" r="5.5" fill="#637482"/>
+                        </g>
+                        <line id="Line_5" data-name="Line 5" x2="6" transform="translate(2.5 5.5)" fill="none" stroke="#fff" stroke-width="1"/>
+                        <line id="Line_6" data-name="Line 6" x2="6" transform="translate(5.5 2.5) rotate(90)" fill="none" stroke="#fff" stroke-width="1"/>
+                        </svg>
                         В СПД стартовала программа 
                         «Культура конкурентоспособности и достижения лучших результатов».
                     </a>
                 </mj-text>
             </mj-column>
         </mj-section>
-        <mj-section  background-url="https://salympetroleum.ru/upload/mail_assets/bg/bg-1.png" background-size="cover" padding="0">
+        <mj-section padding="0">
             <mj-column width="100%" padding="0" css-class="bg-top"></mj-column>
         </mj-section>
-         <mj-section css-class="news-list" padding="29px">
+         <mj-section css-class="news-list" padding="29px 15px">
             <mj-column width="33.3%">
-                <mj-text padding-top="27px" mj-class="heading_h3 primary-color">Персонал</mj-text>
-                <mj-image padding="0" padding-left="5px" src="https://salympetroleum.ru/upload/mail_assets/img/img-1.png"/>
+                <mj-text padding-top="27px" padding-left="10px" mj-class="heading_h3 primary-color font-normal">Персонал</mj-text>
+                <mj-image padding="0" padding-left="5px" src="https://salympetroleum.ru/upload/mail_assets/img/img-1_small.png"/>
                 <mj-text padding-left="10px" css-class="img-text">
                     <a href="#">«Лучший по профессии»: старт конкурса профмастерства</a>
                 </mj-text>
             </mj-column>
             <mj-column width="33.3%">
-                <mj-text padding-top="27px" mj-class="heading_h3 primary-color">ОЗОТОБОС</mj-text>
-                <mj-image padding="0" padding-left="5px" src="https://salympetroleum.ru/upload/mail_assets/img/img-1.png"/>
+                <mj-text padding-top="27px" padding-left="10px" mj-class="heading_h3 primary-color font-normal">ОЗОТОБОС</mj-text>
+                <mj-image padding="0" padding-left="5px" src="https://salympetroleum.ru/upload/mail_assets/img/img-1_small.png"/>
                 <mj-text padding-left="10px"  css-class="img-text">
                     <a href="#">Герои безопасного труда по итогам июля</a>
                 </mj-text>
             </mj-column>
             <mj-column width="33.3%">
-                <mj-text  mj-class="heading_h3 primary-color">Информационнаые технологии</mj-text>
-                <mj-image padding="0" padding-left="5px" src="https://salympetroleum.ru/upload/mail_assets/img/img-1.png"/>
+                <mj-text  mj-class="heading_h3 primary-color font-normal" padding-left="10px">Информационнаые технологии</mj-text>
+                <mj-image padding="0" padding-left="5px" src="https://salympetroleum.ru/upload/mail_assets/img/img-1_small.png"/>
                 <mj-text padding-left="10px"  css-class="img-text">
                     <a href="#">СПД – победитель конкурса «Лучшие социальные проекты России-2021»</a>
                 </mj-text>
@@ -219,16 +275,16 @@
                 </mj-text>
             </mj-column>
             <mj-column width="50%">
-                <mj-image padding-right="0" width="323px" height="258px" src="https://salympetroleum.ru/upload/mail_assets/img/img-1.png"/>
+                <mj-image padding-right="15px" src="https://salympetroleum.ru/upload/mail_assets/img/img-1_small.png"/>
             </mj-column>
             <mj-column width="50%" padding-left="10px" padding-right="35px">
                 <mj-text color="#fff" mj-class="heading_h3" padding-left="0" >
                     Этика и комплаенс
                 </mj-text>
-                <mj-text color="#fff" padding-left="10px">
+                <mj-text color="#fff" padding-left="0">
                     Видеообращение Майкла Коллинса, генерального директора «Салым Петролеум»
                 </mj-text>
-                <mj-text color="#fff" padding-left="10px" padding-top="115px" padding-bottom="5px" css-class="border-bottom border-white">
+                <mj-text color="#fff" padding-left="10px" padding-top="85px" padding-bottom="5px" css-class="border-bottom border-white">
                     <a href="#" style="color: #fff;">
                     <svg width="12" height="12" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" viewBox="364 1372 12 12"><svg width="12" height="12" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" viewBox="0 0 12.017 12.017" fill="#fff" x="364" y="1372"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="12" height="12"><path paint-order="stroke fill markers" fill-rule="evenodd" d="M6 11.5A5.495 5.495 0 0 1 .5 6C.5 2.958 2.958.5 6 .5c3.041 0 5.5 2.458 5.5 5.5 0 3.041-2.459 5.5-5.5 5.5z"/></svg></svg><svg width="5" height="6" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" viewBox="0 0 5.017 6.017" fill="#637482" x="368" y="1375"><svg xmlns="http://www.w3.org/2000/svg" width="5" height="6"><path paint-order="stroke fill markers" fill-rule="evenodd" d="M5 3L1 6V0l4 3z"/></svg></svg></svg>                    
                         Смотреть видео
@@ -236,21 +292,21 @@
                 </mj-text>
             </mj-column>
         </mj-section>
-        <mj-section padding-bottom="0">
-            <mj-column width="50%">
+        <mj-section>
+            <mj-column width="50%" padding-right="15px">
                 <mj-text mj-class="heading_h2 primary-color">Новости «Шелл»</mj-text>
-                <mj-image padding-right="1px" src="https://salympetroleum.ru/upload/mail_assets/img/img-1.png"/>
+                <mj-image padding-right="1px" src="https://salympetroleum.ru/upload/mail_assets/img/img-1_small.png"/>
                 <mj-text css-class="img-text" padding="0" padding-left="30px">Первый в мире контракт о поставках СПГ с нулевым выбросом заключила</mj-text>
-                <mj-text css-class="top-0">Поставки будут осуществляться в адрес PetroChina International в течение 5 лет.</mj-text>
+                <mj-text css-class="top-0" padding-left="30px">Поставки будут осуществляться в адрес PetroChina International в течение 5 лет.</mj-text>
             </mj-column>
-            <mj-column width="50%">
+            <mj-column width="50%" padding-left="15px">
                 <mj-text mj-class="heading_h2 primary-color" padding-left="5px" >Новости «Газпром нефть»</mj-text>
-                <mj-image padding-left="1px" src="https://salympetroleum.ru/upload/mail_assets/img/img-1.png"/>
+                <mj-image padding-left="1px" src="https://salympetroleum.ru/upload/mail_assets/img/img-1_small.png"/>
                 <mj-text css-class="img-text" padding-top="0" padding-left="5px" >«Газпром нефть» первой в России полностью перешла на сдачу отчетности по запасам в цифровом виде</mj-text>
                 <mj-text css-class="top-0" padding-left="5px" >В 2021 году все дочерние добычные предприятия «Газпром нефти» впервые сдали отчетность по изменению запасов углеводородов в цифровом формате.</mj-text>
             </mj-column>
         </mj-section>
-        <mj-section padding-bottom="0" background-repeat="no-repeat" background-size="100%" background-url="https://salympetroleum.ru/upload/mail_assets/bg/bg-4.png" padding="29px">
+        <mj-section padding="29px 15px" background-repeat="no-repeat" background-size="100%" background-url="https://salympetroleum.ru/upload/mail_assets/bg/bg-4.png" padding="29px">
             <mj-column width="43%">
                 <mj-text mj-class="heading_h2 primary-color" padding-right="0">Публикации в СМИ</mj-text>
             </mj-column>
@@ -260,21 +316,29 @@
                 </mj-text>
             </mj-column>
             <mj-column width="50%">
-                <mj-image padding-right="0" width="323px" height="258px" src="https://salympetroleum.ru/upload/mail_assets/img/img-1.png"/>
+                <mj-image padding-right="15px" src="https://salympetroleum.ru/upload/mail_assets/img/img-1_small.png"/>
             </mj-column>
             <mj-column width="50%" padding-left="10px" css-class="no-padding">
-                <mj-text mj-class="heading_h3" padding-left="0">
+                <mj-text mj-class="heading_h3" padding-left="10px">
                     В России объявили лучшие социальные проекты
                 </mj-text>
-                <mj-text padding-left="10px">
+                <mj-text padding-left="10px" padding-top="22px">
                     Программа СПД по поддержке здравоохранения «Здоровая Югра» стала одним из победителей конкурса.
                 </mj-text>
-                <mj-text padding-left="30px" padding-top="35px" padding-bottom="5px" css-class="border-bottom border-primary">
-                    <a href="#">Подробнее</a>
+                <mj-text padding-left="10px" padding-top="30px" padding-bottom="5px" css-class="border-bottom border-primary">
+                    <a href="#">
+                    <svg id="Plus_Component" data-name="Plus Component" xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 11 11">
+                        <g id="Group_33" data-name="Group 33">
+                            <circle id="Ellipse_1" data-name="Ellipse 1" cx="5.5" cy="5.5" r="5.5" fill="#637482"/>
+                        </g>
+                        <line id="Line_5" data-name="Line 5" x2="6" transform="translate(2.5 5.5)" fill="none" stroke="#fff" stroke-width="1"/>
+                        <line id="Line_6" data-name="Line 6" x2="6" transform="translate(5.5 2.5) rotate(90)" fill="none" stroke="#fff" stroke-width="1"/>
+                    </svg>
+                    Подробнее</a>
                 </mj-text>
             </mj-column>
         </mj-section>
-        <mj-section padding="29px">
+        <mj-section padding="29px 15px">
             <mj-column width="47%">
                 <mj-text mj-class="heading_h2 primary-color" padding-right="0">Полезная информация</mj-text>
             </mj-column>
@@ -284,19 +348,28 @@
                 </mj-text>
             </mj-column>
             <mj-column width="50%">
-                <mj-image width="323px" padding-right="0" height="258px" src="https://salympetroleum.ru/upload/mail_assets/img/img-1.png"/>
+                <mj-image padding-right="15px"  src="https://salympetroleum.ru/upload/mail_assets/img/img-1_small.png"/>
             </mj-column>
             <mj-column width="50%" padding-left="0" css-class="no-padding">
                 <mj-text padding-left="10px" mj-class="heading_h3">Рациональная экология</mj-text>
                 <mj-text padding-left="10px">
                     Cегодня рациональное и бережное освоение недр стало главным приоритетом в работе нефтегазовых компаний, для которых новые технологии – это не дань моде.
                 </mj-text>
-                <mj-text padding-left="30px" padding-top="45px" padding-bottom="5px" css-class="border-bottom border-primary">
-                    <a href="#">Подробнее</a>
+                <mj-text padding-left="10px" padding-top="45px" padding-bottom="5px" css-class="border-bottom border-primary">
+                    <a href="#">
+                        <svg id="Plus_Component" data-name="Plus Component" xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 11 11">
+                            <g id="Group_33" data-name="Group 33">
+                                <circle id="Ellipse_1" data-name="Ellipse 1" cx="5.5" cy="5.5" r="5.5" fill="#637482"/>
+                            </g>
+                            <line id="Line_5" data-name="Line 5" x2="6" transform="translate(2.5 5.5)" fill="none" stroke="#fff" stroke-width="1"/>
+                            <line id="Line_6" data-name="Line 6" x2="6" transform="translate(5.5 2.5) rotate(90)" fill="none" stroke="#fff" stroke-width="1"/>
+                        </svg>
+                        Подробнее
+                    </a>
                 </mj-text>
             </mj-column>
         </mj-section>
-        <mj-section padding="80px 37px 22px 37px" css-class="footer" background-url="https://salympetroleum.ru/upload/mail_assets/bg/bg-1.png" background-size="cover">
+        <mj-section padding="21px 21px 18px 21px" css-class="footer" background-url="https://salympetroleum.ru/upload/mail_assets/bg/bg-1.png" background-size="cover">
             <mj-column width="40%">
                 <mj-text font-size="9px" color="#fff" padding-top="50px">
                     Интранет СПД <br>
